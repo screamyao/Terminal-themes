@@ -2,14 +2,15 @@
 OSX Terminal setup
 
 ## Initial Setup
-1. Type below in Terminal
-`nano .bash_profile`
+1. Type the following in Terminal `nano .bash_profile`
 
 2. Copy and Paste below 4 lines
-```export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+```
+export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
-alias ls='ls -GFh'```
+alias ls='ls -GFh'
+```
 
 3. Press Ctrl + O to save; Ctrl + X to exit
 
